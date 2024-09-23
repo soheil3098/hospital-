@@ -1,0 +1,12 @@
+﻿ALTER TABLE Users 
+ADD Deleted BIT DEFAULT 0
+GO
+
+ALTER TABLE patients
+ADD Deleted BIT DEFAULT 0
+GO
+
+ALTER TABLE Medicines
+ADD Deleted BIT DEFAULT 0
+
+GO

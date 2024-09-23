@@ -1,2 +1,2 @@
-# hospital-
+# hospital
  hospital database scripts
